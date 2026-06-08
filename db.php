@@ -1,9 +1,10 @@
 <?php
 // db.php — Database connection
-$host = "mysql.railway.internal";
-$dbname = "railway";
-$username = "root";
-$password = "fKcsRUAldpWPIKzXrlxajoDMFyvZJmba";
+$host = getenv('mysql.railway.internal');
+$dbname = getenv('railway');
+$username = getenv('root');
+$password = getenv('fKcsRUAldpWPIKzXrlxajoDMFyvZJmba');
+$port = getenv('3306');
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
@@ -12,3 +13,5 @@ try {
     die("Connection failed: " . $e->getMessage());
 }
 ?>
+
+
