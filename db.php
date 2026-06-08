@@ -1,9 +1,9 @@
 <?php
 // db.php — Database connection
-$host = "ftpupload.net";
-$dbname = "edunova.free.nf";
-$username = "if0_42101555";
-$password = "gcV9ungorL";
+$host = "mysql.railway.internal";
+$dbname = "railway";
+$username = "root";
+$password = "fKcsRUAldpWPIKzXrlxajoDMFyvZJmba";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
