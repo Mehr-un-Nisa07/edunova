@@ -2,8 +2,10 @@
 
 A full-stack academy management platform with student registration, profile management, program applications, and a complete admin panel for reviewing and managing applications.
 
-## 🔗 Live Demo
-[Visit Live Site](https://edunova-production-ad3c.up.railway.app)
+## 🔗 Demo Video
+[Watch Demo Video](https://youtu.be/TCni1W_PcZE)
+
+> **Note:** This project was originally deployed live on Railway. The free hosting trial has since expired, so a full walkthrough video is provided instead to demonstrate all features.
 
 ## 🛠️ Built With
 - PHP (Object-Oriented Programming)
